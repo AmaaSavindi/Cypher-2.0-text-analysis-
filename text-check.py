@@ -72,3 +72,9 @@ def generate_word_cloud(identifier):
     plt.axis('off')
     plt.show()
 
+# Read text file
+with open('Txt file for Task 01 (Easy).rtf', 'r') as file:
+    text = file.read()
+
+
+
