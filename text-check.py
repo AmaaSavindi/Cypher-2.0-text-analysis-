@@ -90,7 +90,19 @@ uppercase_percentage = percentage_uppercase_letters(text)
 bigrams = generate_bigrams(identifier)
 top_5_bigrams = most_frequent_bigrams(bigrams)
 
+# Printing the relevant details
+print("Number of Words in the text:", num_words)
+print("Unique Words in the text:", num_unique_words)
+print("Most Frequent Word:", most_freq_word)
+print("Average Word Length:", avg_word_length)
+print("Number of Sentences:", num_sentences)
+print("Longest Sentence:", longest_sentence)
+print("Shortest Sentence:", shortest_sentence)
+print("Percentage of Uppercase Letters:", uppercase_percentage)
+print("Top 5 Most Frequent Bigrams:", top_5_bigrams)
 
+# Generate word cloud
+generate_word_cloud(identifier)
 
 
 
