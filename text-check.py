@@ -79,6 +79,18 @@ with open('Txt file for Task 01 (Easy).rtf', 'r') as file:
 # Clean and tokenize text
 identifier = clean_identified_text(text)
 
+# Using the functions
+num_words = words_count(identifier)
+num_unique_words = words_count(identifier)
+most_freq_word = most_frequent_word(identifier)
+avg_word_length = average_word_length(identifier)
+num_sentences = sentences_count(text)
+longest_sentence, shortest_sentence = longest_shortest_sentences(text)
+uppercase_percentage = percentage_uppercase_letters(text)
+bigrams = generate_bigrams(identifier)
+top_5_bigrams = most_frequent_bigrams(bigrams)
+
+
 
 
 
