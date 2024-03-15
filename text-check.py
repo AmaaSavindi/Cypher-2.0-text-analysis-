@@ -15,3 +15,8 @@ def clean_identified_text(text):
     # Generating identifier to the text
     identifier = word_tokenize(text)
     return identifier
+
+# Function to calculate words number
+def count_words(identifier):
+    return len(identifier)
+
