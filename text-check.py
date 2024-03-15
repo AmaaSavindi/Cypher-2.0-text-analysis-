@@ -76,5 +76,10 @@ def generate_word_cloud(identifier):
 with open('Txt file for Task 01 (Easy).rtf', 'r') as file:
     text = file.read()
 
+# Clean and tokenize text
+identifier = clean_identified_text(text)
+
+
+
 
 
