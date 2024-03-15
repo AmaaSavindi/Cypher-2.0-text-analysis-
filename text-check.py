@@ -73,7 +73,7 @@ def generate_word_cloud(identifier):
     plt.show()
 
 # Read text file
-with open('Txt file for Task 01 (Easy).rtf', 'r') as file:
+with open('Txt file for Task 01 (Easy).txt', 'r') as file:
     text = file.read()
 
 # Clean and tokenize text
