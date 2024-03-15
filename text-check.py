@@ -73,6 +73,7 @@ def generate_word_cloud(identifier):
     plt.show()
 
 # Read text file
+# Converted the word file into text format
 with open('Txt file for Task 01 (Easy).txt', 'r') as file:
     text = file.read()
 
